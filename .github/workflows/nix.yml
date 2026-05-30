@@ -3,6 +3,7 @@
 # That can be updated to the latest version in nixpkgs-unstable with `nix flake update`
 name: Nix
 on:
+  action_dispatch:
   push:
     branches: [main]
     paths-ignore:
